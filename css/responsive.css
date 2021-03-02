@@ -1,0 +1,14 @@
+@media (min-width: 30em) and (max-width: 60em) {
+
+}
+
+@media (max-width: 30em) {
+  body > header > img{
+    width: 100%;
+  }
+
+  body > header > h1{
+    display: none;
+  }
+  
+}

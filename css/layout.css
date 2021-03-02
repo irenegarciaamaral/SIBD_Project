@@ -1,0 +1,92 @@
+
+
+body{
+    margin: 0px;
+    display: grid;
+    grid-template-rows: [header-start] auto [header-end-corpo-start] 1fr [corpo-end-footer-start] auto [footer-end];
+
+    grid-template-areas: "header"
+                         "corpo"
+                         "footer";
+}
+
+body > header{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+}
+
+body > header > *{
+    flex-grow: 1;
+    align-self: center;
+}
+
+body > header :first-child{
+    flex-grow: 0.4;
+}
+
+/*
+body > header{
+    grid-area: header;
+
+    display: grid;
+    grid-template-columns: [logo-start] 0.5fr [logo-end-title-start] 1fr [title-end-cabeçalho-start] 5fr [cabeçalho-end-signup-start] 1.5fr [signup-end];
+    grid-template-rows: [header-start] 1fr [header-end];
+
+    grid-template-areas: "logo titulo cabeçalho signup"  
+}
+
+body > header > img{
+    grid-area: logo;
+    justify-self: left; 
+    align-self: center; 
+}
+
+body > header > h1{
+    grid-area: titulo;
+    justify-self: left;
+    align-self: center;
+}
+
+body > header > div#cabeçalho{
+    grid-area: cabeçalho;
+    justify-self: center;
+    align-self: center;
+}
+
+/*para apagar!*//*
+body > header > section#iniciar-sessao{
+    grid-area: signup;
+    justify-self: right;
+    padding-right: 1em;
+    align-self: center;
+}
+
+*/
+/*registar.html*/
+body > section#registar{
+    grid-area: corpo;
+    justify-self: center;
+}
+
+/*procurar-viagem.html*/
+body > section#procurar-viagem{
+    grid-area: corpo;
+    justify-self: center;
+}
+
+/*publicar-viagem.html*/
+body > section#publicar-viagem{
+    grid-area: corpo;
+    justify-self: center;
+}
+
+/*publicar-carro.html*/
+body > section#publicar-carro{
+    grid-area: corpo;
+    justify-self: center;
+}
+
+body > footer{
+    grid-area: footer;
+}

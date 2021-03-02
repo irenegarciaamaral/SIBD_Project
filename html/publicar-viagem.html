@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <title>àBoleia</title>
+    <meta charset="UTF-8">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/layout.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <link href="../css/forms.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="img/logo1.png" alt="Logo of the website">
+      <h1><a href="index.html">àBoleia</a></h1>
+      <div id="cabeçalho">
+        <a class="b1" href="procurar-viagem.html">Procurar Viagem</a>
+        <a class="b2" href="publicar-viagem.html">Publicar Viagem</a>
+        <a class="b3" href="registar.html">Registar</a> 
+      </div>
+    </header>
+    <section id="publicar-viagem">
+      <h2>Publica a tua viagem!</h2>
+      <form class="dados-viagem">
+        <h3>Dados da viagem</h3>
+        <label>
+          Qual é o ponto de partida? <input type="text" name="partida" required="required">
+        </label>
+        <label>
+          Para onde vais? <input type="text" name="chegada" required="required">
+        </label>
+        <label>
+          Cidades de passagem? <input type="text" name="paragens" required="required">
+        </label>
+        <label>
+          Data e Hora de partida: <input type="datetime-local" name="dataPartida" required="required">
+        </label>
+      </form>
+      <form class="dados-carro">
+        <h3>Dados do Carro</h3>
+        <label>
+          Marca <input type="text" name="marca" required="required">
+        </label>
+        <label>
+          Modelo <input type="text" name="modelo" required="required">
+        </label>
+        <label>Tipo de combustível
+          <select name="combust">
+            <option value="gasoleo">Gasóleo</option>
+            <option value="gasolina" >Gasolina</option>
+            <option value="gas">Gás</option>
+            <option value="hibrido">Híbrido</option>
+            <option value="eletrico">Elétrico</option>
+          </select>  
+        </label>
+        <label>
+          Matrícula <input type="text" name="matricula" required="required">
+        </label>
+        <label>
+          Número de lugares <input type="number" value="3" min="1" max="4" name="nPassageiros" required="required">
+        </label>
+        <input type="submit" value="PUBLICAR">
+      </form>
+    </section>
+    <footer>
+      <p>&copy; àBoleia, 2019</p>
+    </footer> 
+  </body>
+</html>

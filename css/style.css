@@ -1,0 +1,202 @@
+body {
+	color: black;
+	font-family: "Calibri", sans-serif;
+	margin: 1em  auto 1em auto ;
+	background-color: white; 
+}
+
+header{
+    background-color: #1969C0;
+    padding: 1em;
+}
+
+header img{
+    width: 50px;
+    border-style: solid;
+    border-radius:  50% 50% 50% 50% ;
+    border-width: 10px 10px 10px 10px;
+    border-color: #1969C0;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: "MV Boli", sans-serif; 
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header div#cabeçalho a{
+    font-size: 1.1em;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px 10px 10px 10px;
+    border-color: white ;
+    background-color: white;
+    color: #1969C0;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+header div#cabeçalho .b1{
+    padding: 0.1em 2em;
+}
+
+header div#cabeçalho .b2{
+    padding: 0.1em 2em;
+}
+
+header div#cabeçalho .b3{
+    padding: 0.1em 3.7em;
+}
+
+/*index.html*/
+section#procurar-info {
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+}
+
+section#procurar-info h2{
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+section#procurar-info h3{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+section#procurar-info p{
+    font-size: 1em;
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+section#procurar-info a{
+    text-align: center;
+    border-style: solid;
+    border-radius:  20px;
+    border-width: 10px 10px 10px 10px;
+    border-color: #1969C0 ;
+    background-color: #1969C0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+section#publicar-info {
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+}
+
+section#publicar-info h2{
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+section#publicar-info p{
+    font-size: 1em;
+    text-align: left;
+}
+
+section#publicar-info img{
+    width: 500px;
+}
+
+section#publicar-info a{
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 10px 10px 10px 10px;
+    border-color: #1969C0 ;
+    background-color: #1969C0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/*registar.html*/
+section#registar {
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+section#registar h2{
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*procurar.html*/
+section#procurar-viagem {
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+section#procurar-viagem h2{
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*publicar-viagem.html*/
+section#publicar-viagem {
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+section#publicar-viagem h2{
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+section#publicar-viagem h3{
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*publicar-carro.html
+section#publicar-carro {
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+section#publicar-carro h2{
+    padding-top: 1em;
+    font-size: 2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+section#publicar-carro h3{
+    font-size: 1.4em;
+    text-align: left;
+    font-weight: bold;
+}
+*/
+
+/*footer*/
+footer{
+    padding-top: 2em;
+    color: grey;
+    padding-left: 15em;
+    font-weight: bold;
+    font-size: 1em;
+}
